@@ -14,14 +14,26 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
+  padding: 60px;
+}
+
+#session-page{
+ padding:60px;
+ border: 0.5rem solid rgba(189, 195, 199, 1);
+ border-radius: 25px;
+}
+
+.header-title{
+  font-family: 'Montserrat', sans-serif;
+  color: black!important;
 }
 
 .App-link {
@@ -35,4 +47,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.center-inputs{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 0px !important;
+}
+
+.center-inputs label{
+  text-align: center !important;
+}
+
+.center-inputs span{
+  text-align: center !important;
+  margin: 0px !important;
+}
+
+.center-inputs button{
+  text-align: center !important;
 }
